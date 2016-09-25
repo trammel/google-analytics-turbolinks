@@ -3,6 +3,8 @@
 Turbolinks page changes are often not detected with event tracking frameworks such as
 Google Analytics, Baidu Tongji and Bing UET.
 
+Facebook's Pixel appears to work with turbolinks without problems.
+
 These analytics and ad/event tracking products are also the
 worlds largest search providers. This gem adds support to fire these
 events on page changes, to more accurately work with turbolinks.
