@@ -1,9 +1,13 @@
 # Multi::Analytics::Turbolinks
 
-**use with Rails and Asset Pipeline**
+Turbolinks page changes are often not detected with event tracking frameworks such as
+Google Analytics, Baidu Tongji and Bing UET.
 
-This gem adds support for turbolinks to Google Analytics, Baidu Tongji & Bing UET tracking code.
-This gem is forked from the google-analytics-turbolinks gem.
+These analytics and ad/event tracking products are also the
+worlds largest search providers. This gem adds support to fire these
+events on page changes, to more accurately work with turbolinks.
+
+**Use with Rails and Asset Pipeline**
 
 ## Installation
 
@@ -21,11 +25,19 @@ Or install it yourself as:
 
 ## Usage
 
+Signup to
+
+  * [Google Analytics](http://analytics.google.com/)
+  * Baidu Tongji [join](http://tongji.baidu.com/open/api/more?p=howToJoin) and [login](http://tongji.baidu.com/web/welcome/login)
+  * [Bing UET](https://secure.bingads.microsoft.com/) (credit-card not required)
+
 Add the JS you need to your Javascript manifest file (typically application.js)
 
+```html
 	//= require google-analytics-turbolinks
 	//= require baidu-tongji-turbolinks
 	//= require bing-uet-turbolinks
+```
 
 ## Contributing
 
