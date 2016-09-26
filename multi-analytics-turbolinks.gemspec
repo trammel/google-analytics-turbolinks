@@ -6,8 +6,8 @@ require 'multi-analytics-turbolinks/version'
 Gem::Specification.new do |gem|
   gem.name          = "multi-analytics-turbolinks"
   gem.version       = Multi::Analytics::Turbolinks::VERSION
-  gem.authors       = ["Shuky Dvir"]
-  gem.email         = ["shuky.dvir@gmail.com"]
+  gem.authors       = ["Jonathon Padfield"]
+  gem.email         = ["jonathon.padfield@gmail.com"]
   gem.description   = %q{This gem adds support for turbolinks to Google Analytics, Baidu Tongji & Bing UET tracking code. This gem is forked from the google-analytics-turbolinks gem.}
   gem.summary       = %q{This gem adds support for turbolinks to Google Analytics, Baidu Tongji & Bing UET tracking code.}
   gem.homepage      = "https://github.com/trammel/multi-analytics-turbolinks.git"
