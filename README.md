@@ -9,6 +9,8 @@ These analytics and ad/event tracking products are also the
 worlds largest search providers. This gem adds support to fire these
 events on page changes, to more accurately work with turbolinks.
 
+This gem was forked from joshdvir's google-analytics-turbolinks
+
 **Use with Rails and Asset Pipeline**
 
 ## Installation
